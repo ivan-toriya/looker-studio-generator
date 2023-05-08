@@ -1,6 +1,10 @@
 import streamlit as st
 import urllib.parse
 
+st.set_page_config(
+    page_title="Looker Studio BigQuery usage cost dashboard generator",
+    page_icon="💸",
+)
 
 st.title('Looker Studio BigQuery usage cost dashboard generator')
 st.markdown('''> Example of the generated dashboard (also serves as a [TEMPLATE] for new ones):
